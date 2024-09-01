@@ -16,12 +16,10 @@ class ApiDemoController extends RestController
     public function index_get() 
     { 
         echo "I am restful API"; 
-      
+        echo 'Current PHP version: ' . phpversion();
+
     } 
  
   
 } 
-?> 
- 
-
 
