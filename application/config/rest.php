@@ -298,7 +298,7 @@ $config['rest_database_group'] = 'default';
 | The table name in your database that stores API keys
 |
 */
-$config['rest_keys_table'] = 'keys';
+$config['rest_keys_table'] = 'api_keys';
 
 /*
 |--------------------------------------------------------------------------
@@ -323,7 +323,7 @@ $config['rest_keys_table'] = 'keys';
 |   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 |
 */
-$config['rest_enable_keys'] = false;
+$config['rest_enable_keys'] = true;
 
 /*
 |--------------------------------------------------------------------------
@@ -334,7 +334,7 @@ $config['rest_enable_keys'] = false;
 | column name to match e.g. my_key
 |
 */
-$config['rest_key_column'] = 'key';
+$config['rest_key_column'] = 'my_key';
 
 /*
 |--------------------------------------------------------------------------
